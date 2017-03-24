@@ -29,6 +29,13 @@ source is https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-
 ```html
  <base href="http://www.example.ca/" target="_blank"> 
 ```
+### Center an object in bootstrap
+```css
+.centered{
+    float: none;
+    margin: 0 auto;
+}
+```
 
 
 
