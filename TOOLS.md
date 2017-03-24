@@ -39,3 +39,12 @@ Underscore
 Foundation 
     - https://cdnjs.com/libraries/foundation
 
+### Front End Handbook
+https://frontendmasters.com/books/front-end-handbook/2017/
+
+### CSS Transforms
+https://desandro.github.io/3dtransforms/
+
+
+### Advanced HTML Guide - good resource
+http://learn.shayhowe.com/advanced-html-css/performance-organization/
