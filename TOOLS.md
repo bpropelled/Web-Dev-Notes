@@ -26,3 +26,13 @@ http://www.tablesgenerator.com/html_tables#
 ### CSS Gradient Generator
 http://www.colorzilla.com/gradient-editor/
 
+### CDNS
+Bootstrap
+    - https://cdnjs.com/libraries/twitter-bootstrap
+Jquery
+    - https://cdnjs.com/libraries/jquery
+Underscore
+    - https://cdnjs.com/libraries/underscore.js
+Foundation 
+    - https://cdnjs.com/libraries/foundation
+
