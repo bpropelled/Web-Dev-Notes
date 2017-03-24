@@ -22,3 +22,10 @@ That’s it! You can now link pages inside the HTML document without needing to 
 <a href="http://whatever.com/wallpaper" title="wallpaper">wallpaper</a>
 ```
 source is https://alexcican.com/post/how-to-remove-php-html-htm-extensions-with-htaccess/
+
+
+## HTML
+### Setup the base URL for all links on the page
+```html
+ <base href="http://www.example.ca/" target="_blank"> 
+```
