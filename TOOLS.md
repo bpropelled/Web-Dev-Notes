@@ -19,6 +19,8 @@ http://marksheet.io/
 
 ### CSS Reference
 http://cssreference.io/
+or 
+https://tympanus.net/codrops/css_reference/
 
 ### HTML Table Generator
 http://www.tablesgenerator.com/html_tables#
