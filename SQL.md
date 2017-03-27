@@ -14,7 +14,7 @@ Tools:
 - DataGrip: https://www.jetbrains.com/datagrip/
 - Sequel Pro: http://www.sequelpro.com/
 
-## Types pf Fields for Postgresql
+## Types of Fields for MySQL
 Column | Data type	 | Note
 ------------ | ------------- | -------------
 id	| INTEGER |	AUTO_INCREMENT, UNSIGNED
@@ -40,7 +40,33 @@ tags, categories | TINYTEXT | comma separated values *
 status | TINYINT(1)	1 – published, 0 – unpublished,  | You can also use ENUM for human-readable values
 json data | JSON or LONGTEXT
 
-## End TOF
+
+## Types of Fields for Postgresql
+Column | Data type	 | Note
+------------ | ------------- | -------------
+id (autoinc)|SERIAL | or INTEGER for more control
+uuid|UUID	 
+title|VARCHAR(255)|or TEXT
+full name|VARCHAR(70)|or TEXT
+gender|ENUM	| ('Male', 'Female', 'Intersex', 'Transgender',
+'Unknown')
+description|TEXT	 
+post body|TEXT	 
+email|CITEXT|or VARCHAR(255)
+url|VARCHAR(2083)|or TEXT
+salt|CHAR(x)|randomly generated string, usually of fixed length (x)
+digest (md5)|UUID|ex.: md5('a string')::uuid
+phone number|VARCHAR(20)	 
+US zip code|CHAR(5)|Use CHAR(10) if you store extended codes
+US/Canada p.code|CHAR(6)	 
+file path|VARCHAR(254)|or TEXT
+5-star rating|NUMERIC(3,2)	 
+price|NUMERIC(10,2)	 
+date|TIMESTAMP|WITH TIME ZONE
+tags, categories|ARRAY	 
+status|ENUM|('published', 'unpublished', …)
+json|JSON|PostgreSQL >= 9.3
+
 
 
 Commands
