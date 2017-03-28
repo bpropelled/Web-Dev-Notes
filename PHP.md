@@ -3,6 +3,7 @@
 ### SQL Inection Prevention
 #### Mysqli
 Using mysqli
+https://www.cloudways.com/blog/custom-php-mysql-contact-form/
 
 The MySQL Improved extension handles bound parameters.
 
@@ -33,3 +34,5 @@ $stmt = $dbh->prepare('UPDATE people SET name = :new_name WHERE id = :id');
 $stmt->execute( array('new_name' => $name, 'id' => $id) );
 Here's a great tutorial on migrating to PDO for MySQL developers.Using the PDO layer
 ```
+### PDO Tutorial
+http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers
