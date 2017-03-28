@@ -53,3 +53,9 @@ http://learn.shayhowe.com/advanced-html-css/performance-organization/
 
 ### Great Site with a good example of Git branching explanation
 https://betterexplained.com/articles/aha-moments-when-learning-git/
+
+## SVG
+### SVG Optimize
+https://jakearchibald.github.io/svgomg/
+## BEST SVG tut
+https://svgontheweb.com/
