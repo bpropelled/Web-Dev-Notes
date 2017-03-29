@@ -1,38 +1,16 @@
 ## PHP 
 
-### SQL Inection Prevention
-#### Mysqli
-Using mysqli
-https://www.cloudways.com/blog/custom-php-mysql-contact-form/
-
-The MySQL Improved extension handles bound parameters.
-
-```php
-$stmt = $db->prepare('update people set name = ? where id = ?');
-$stmt->bind_param('si',$name,$id);
-$stmt->execute();
+## Save Credentials using HTACCESS
+### in the HTACCESS file, set envs with
 ```
-
-Using the PDO layer
-
-Here's the long way to do bind parameters.
-```php
-$dbh = new PDO('mysql:dbname=testdb;host=127.0.0.1', $user, $password);
-$stmt = $dbh->prepare('INSERT INTO REGISTRY (name, value) VALUES (:name, :value)');
-$stmt->bindParam(':name', $name);
-$stmt->bindParam(':value', $value);
-
-// insert one row
-$name = 'one';
-$value = 1;
-$stmt->execute();
+SetEnv NAME value
 ```
-And a shorter way to pass things in.
+omit "" and ''
+
+### To get the value in a script use 
 ```php
-$dbh = new PDO('mysql:dbname=testdb;host=127.0.0.1', $user, $password);
-$stmt = $dbh->prepare('UPDATE people SET name = :new_name WHERE id = :id');
-$stmt->execute( array('new_name' => $name, 'id' => $id) );
-Here's a great tutorial on migrating to PDO for MySQL developers.Using the PDO layer
+<?php
+
+    $x = getenv('NAME');
+?>
 ```
-### PDO Tutorial
-http://wiki.hashphp.org/PDO_Tutorial_for_MySQL_Developers
