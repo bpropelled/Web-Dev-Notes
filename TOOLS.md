@@ -59,3 +59,6 @@ https://betterexplained.com/articles/aha-moments-when-learning-git/
 https://jakearchibald.github.io/svgomg/
 ## BEST SVG tut
 https://svgontheweb.com/
+
+## Image Optimizers
+https://compressor.io/
