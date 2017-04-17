@@ -62,3 +62,9 @@ https://svgontheweb.com/
 
 ## Image Optimizers
 https://compressor.io/
+
+
+## Freeelance Tools
+### Tool to get an estimated amount for a website
+https://fulfilli.com/?ref=webdesignernews.com
+
