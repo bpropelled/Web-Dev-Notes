@@ -48,3 +48,10 @@ where this file is in sitename.com/foldername/Assets/scripts/mpdf/mpdf.php
 header("Location: http://example.com/myOtherPage.php");
 die();
 ```
+
+## Remove empty elements from an array
+```php
+$array = ['apples', '', 'oranges'];
+$array = array_filter($array);
+// returns ['apples','oranges']
+```
