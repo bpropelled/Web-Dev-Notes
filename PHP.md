@@ -42,3 +42,9 @@ Then you can access includes from a different directory by default like this
 include("scripts/mpdf/mpdf.php");
 ```
 where this file is in sitename.com/foldername/Assets/scripts/mpdf/mpdf.php
+
+## Use PHP to redirect to a different page
+```php
+header("Location: http://example.com/myOtherPage.php");
+die();
+```
