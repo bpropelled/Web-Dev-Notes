@@ -55,3 +55,24 @@ $array = ['apples', '', 'oranges'];
 $array = array_filter($array);
 // returns ['apples','oranges']
 ```
+
+## Get Current Quarter Number
+```php
+
+    function CurrentQuarter(){
+         $n = date('n');
+         if($n < 4){
+              return "1";
+         } elseif($n > 3 && $n <7){
+              return "2";
+         } elseif($n >6 && $n < 10){
+              return "3";
+         } elseif($n >9){
+              return "4";
+         }
+    }
+    
+    $what_is_the_qtr = CurrentQuarter();
+
+echo $what_is_the_qtr;
+```
