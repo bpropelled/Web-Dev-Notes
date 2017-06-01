@@ -76,3 +76,21 @@ $array = array_filter($array);
 
 echo $what_is_the_qtr;
 ```
+
+## Redirect a User if IP does not meet credentials
+```php
+// -> use a proper ip $myip = "192.168.100.1"; <-
+$myip = "::1";
+//The above is used for local host
+$location = "http://google.com";
+
+if($_SERVER['REMOTE_ADDR'] != $myip)
+    {
+    header("Location: $location");
+    }
+else
+    {
+    echo ' ok go';
+    }
+
+```
