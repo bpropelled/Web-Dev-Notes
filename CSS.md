@@ -1,4 +1,4 @@
-##CSS Notes and Tricks
+## CSS Notes and Tricks
 
 ### Make Label Clickable for checks, readios and text input fields
 Making checkbox labels clickable via <label>
