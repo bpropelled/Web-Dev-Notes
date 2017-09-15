@@ -94,3 +94,8 @@ else
     }
 
 ```
+
+
+## When to use Self Vs This
+
+Use $this to refer to the current object. Use self to refer to the current class. In other words, use  $this->member for non-static members, use self::$member for static members.  But is is prefered to use static:: instead of self:: to refer to iteslf in a class
