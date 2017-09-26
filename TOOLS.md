@@ -68,3 +68,7 @@ https://compressor.io/
 ### Tool to get an estimated amount for a website
 https://fulfilli.com/?ref=webdesignernews.com
 
+
+## Markdown Tools
+### Neat tool to help convert rich text from websites into markdown for this
+http://markitdown.medusis.com/
