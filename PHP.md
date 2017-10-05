@@ -111,3 +111,110 @@ error_reporting(E_ALL);
 ini_set('display_errors', DEBUG ? 'On' : 'Off');
 
 ```
+
+## Simple MySQL connection
+### Make sure to use "mysqli_escape_string" to escape the user input!
+```php
+$con=mysqli_connect("enterURLhere*","databaseNameHere","passwordGoesHere","yourUsername");
+
+/*Check connection*/
+if (mysqli_connect_errno()){
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+}
+
+//Save Vars from $_GET['']
+$name=mysqli_real_escape_string($con,$_GET["name"]);
+$text=mysqli_real_escape_string($con,$_GET["text"]);
+$time=substr(str_replace("+",":",str_replace("T"," ",date(DATE_ATOM))),0,18);
+
+// Insert them into the DB
+$sql="INSERT INTO chat (time, name, text)
+  VALUES
+  ('$time','$name','$text')";
+
+  if (!mysqli_query($con,$sql)){
+    die('Error: ' . mysqli_error($con));
+  } else{
+
+  echo "$name wrote '$text'";
+}
+
+mysqli_close($con);
+
+
+// Get info from DB
+$data = "SELECT * FROM databaseName ORDER BY Time ASC";
+$result = mysqli_query($con, $data);
+
+while($row = mysqli_fetch_array($result,MYSQLI_ASSOC)){
+
+echo "
+
+<div class="chatPost">
+
+";
+echo $row['Username'];
+echo "
+
+[";
+$row['Time'] = substr($row['Time'], 11, strpos($row['Time'], ' '));
+echo $row['Time'];
+echo "]: 
+
+";
+echo "
+
+";
+echo $row['Content'];
+echo "
+
+</div>
+
+";
+}
+
+mysqli_free_result($result);
+mysqli_close($con);
+
+```
+### Reading the data with JS
+``javascript
+function updateChat() {
+  $.get("read.php", function(data) {
+    $("#chatOutput").html(data);
+  });
+}
+
+
+    $("#chatSend").click(function(){
+
+        /*Get User Input*/
+        var text=$("#chatText").val();
+        var username=$("#username").val();
+
+          if(text!=undefined&&username!=undefined){
+
+          /*Send Stuff*/
+          var url = "write.php?username=" +
+              decodeURI(username) +
+              "&text=" +
+              decodeURI(text));
+          $.post(url);
+
+        }
+
+      });
+
+  setTimeout(
+    function() {updateChat();},
+     1000);
+
+  function updateChat() {
+    $.get("read.php", function(data) {
+      $("#chatOutput").html(data);
+    });
+  }
+
+});
+```
+
