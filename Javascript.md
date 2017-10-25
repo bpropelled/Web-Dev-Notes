@@ -47,3 +47,13 @@ foo.getBar();
 var newFoo = new Foo(); // create a new instance of the Foo object
 newFoo.getBar(); // access the getBar method on the new object
 ```
+
+## Use Vanilla JS for document loaded like $(document).ready(function(){});
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+    // STUFF HERE
+
+}, false);
+
+```
