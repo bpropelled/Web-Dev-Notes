@@ -3,7 +3,7 @@
 ## TOC
 
 ### Javascript
-[Go To JS Page](/javascript.md)
+[Go To JS Page](/Javascript.md)
 
 ### Wish List of Things to Master
 [Go To the Wishlist](/Wishlist.md)
