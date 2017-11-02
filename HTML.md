@@ -5,6 +5,10 @@
 
 A div has a default CSS display value of block which makes it take up all the available horizontal space. A span has a default display value of inline so it will take up only the horizontal space required by whatever it contains. You could change the display value of any element, making a span display:block or a div display:inline if for some reason you can't choose the element that has your desired layout properties in the first place.
 
+## Don't let synchronous scripts get int he way of html loading by addding async tag
+```html
+<script src="async-example.js" async></script>
+```
 ## Knockout Text
 ```html
 <span class="knockout">Your Text</span>

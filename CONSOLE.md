@@ -10,6 +10,13 @@ console.log('%c a colorful message', 'background: green; color: white; display: 
 ```cmd
 echo > test.txt
 ```
+
+this will mkae a file with one line "Echo is on"
+to make this an empty file just do this
+```cmd
+echo.> test.txt
+```
+
 or add items into it bby putting them before the ">"
 
 ```cmd
