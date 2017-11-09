@@ -6,3 +6,14 @@
 
 ### Markdown Cheatsheet
 [LINK TO PAGE](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
+
+### Site to Practice Scraping with
+[LINK TO PAGE](http://books.toscrape.com/)
+
+## GRAPHICS
+### Good resource to get free graphic resources
+[LINK TO PAGE](https://graphicburger.com)
+
+## WEB APP
+### Web App Manifest Generator (manifest.json)
+[LINK TO TOOL](https://brucelawson.github.io/manifest/)
