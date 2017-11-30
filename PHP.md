@@ -178,7 +178,7 @@ mysqli_close($con);
 
 ```
 ### Reading the data with JS
-``javascript
+```javascript
 function updateChat() {
   $.get("read.php", function(data) {
     $("#chatOutput").html(data);
@@ -217,4 +217,39 @@ function updateChat() {
 
 });
 ```
+
+## Do I need a closing php tag "?>"
+You don't need a closing PHP tag if you code is PHP only in the file
+
+## Magic Constants
+php offers a wide range of magic constants to use like '__DIR__'
+
+In the PHP constants chapter we've learned how to define and use constants in PHP script.
+PHP moreover also provide a set of special predefined constants that change depending on where they are used. These constants are called magic constants. For example, the value of __LINE__ depends on the line that it's used on in your script.
+Magic constants begin with two underscores and end with two underscores. The following section describes some of the most useful magical PHP constants.
+
+### Reference of Magic Constants
+
+__LINE__
+The __LINE__ constant returns the current line number of the file, like this:
+
+__FILE__
+The __FILE__ constant returns full path and name of the PHP file that's being executed. If used inside an include, the name of the included file is returned.
+
+__DIR__
+The __DIR__ constant returns the directory of the file. If used inside an include, the directory of the included file is returned. 
+
+__FUNCTION__
+The __FUNCTION__ constant returns the name of the current function.
+
+__CLASS__
+The __CLASS__ constant returns the name of the current class. Here's an example:
+
+__METHOD__
+The __METHOD__ constant returns the name of the current class method.
+
+__NAMESPACE__
+The __NAMESPACE__ constant returns the name of the current namespace.
+
+[link to reference and exmaples]('https://www.tutorialrepublic.com/php-tutorial/php-magic-constants.php')
 

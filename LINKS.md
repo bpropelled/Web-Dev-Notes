@@ -17,3 +17,11 @@
 ## WEB APP
 ### Web App Manifest Generator (manifest.json)
 [LINK TO TOOL](https://brucelawson.github.io/manifest/)
+
+## TIP ON HOW TOP PRESENT INFO
+• Hook w/ Pain Point
+• Introduce Yourself
+• Show Social Proof
+• Explain The Product
+• Technical Details
+• Prices
