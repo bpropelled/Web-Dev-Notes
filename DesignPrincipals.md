@@ -1,6 +1,7 @@
 # Design Principals
 
 [article 1](https://medium.com/@nickrosener/4-design-principles-my-landlord-doesnt-understand-apparently-3c25d70294d2?ref=webdesignernews.com)
+
 [Great Site Full of Principals](https://principles.design/)
 
 ## 1. Cognitive Load
