@@ -4,6 +4,15 @@
 
 [Great Site Full of Principals](https://principles.design/)
 
+## Principles of Web Development
+Focus on the User
+Focus on Quality
+Keep It Simple
+Think Long-Term (and Beware of Fads)
+Don’t Repeat Yourself (aka One Cannot Not Maintain)
+Code Responsibly
+Know Your Field
+
 ## 1. Cognitive Load
 Cognitive load refers to the total amount of mental effort being used in the working memory.
 
