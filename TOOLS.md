@@ -72,3 +72,6 @@ https://fulfilli.com/?ref=webdesignernews.com
 ## Markdown Tools
 ### Neat tool to help convert rich text from websites into markdown for this
 http://markitdown.medusis.com/
+
+### CONVERT URLS TO MARKDOWN
+[LINK](http://fuckyeahmarkdown.com/go/)
