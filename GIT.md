@@ -22,3 +22,9 @@ This is the path under windows 7, maybe can be different in other installation.
 
 Just open it with your preferred editor in admin mode. After save it, reload your command prompt.
 ```
+
+Where to add Aliases using the Windows CMD using .gitconfig
+``` 
+c:\Users\Username\.gitconfig
+
+```
