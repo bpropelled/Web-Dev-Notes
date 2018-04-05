@@ -44,3 +44,20 @@ let x = avg(array);
 
 console.log(x);
 ```
+
+## Add single and multiple CSS styles to elements
+Single CSS
+```javascript
+$('.test').css('background','#000');
+```
+Multiple CSS by using an object
+```javascript
+$('.test')
+.css({
+   'filter'         : 'blur(0px)',
+   '-webkit-filter' : 'blur(0px)',
+   '-moz-filter'    : 'blur(0px)',
+   '-o-filter'      : 'blur(0px)',
+   '-ms-filter'     : 'blur(0px)'
+});
+```
