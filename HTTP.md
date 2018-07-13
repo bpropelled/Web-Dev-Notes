@@ -9,7 +9,7 @@ Message:	Description:
 103 Checkpoint	Used in the resumable requests proposal to resume aborted PUT or POST requests
 
 ### 2xx: Successful
-Message:	Description:
+Message:
 200 OK	The request is OK (this is the standard response for successful HTTP requests)
 201 Created	The request has been fulfilled, and a new resource is created 
 202 Accepted	The request has been accepted for processing, but the processing has not been completed
