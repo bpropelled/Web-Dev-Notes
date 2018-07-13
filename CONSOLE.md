@@ -22,3 +22,9 @@ or add items into it bby putting them before the ">"
 ```cmd
 echo hey this is cool > test.txt
 ```
+
+## Stylish Console Logs
+You can style the text you display via console.log() with CSS. Just stick “%c” at the beginning of your string, then add a second string parameter for the CSS. Like so:
+```cmd
+console.log('%cHey, look at me, being all fancy and stuff!', 'font-size: 26px; font-weight: bold; color: purple;')
+```

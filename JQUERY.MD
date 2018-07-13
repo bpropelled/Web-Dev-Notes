@@ -61,3 +61,14 @@ $('.test')
    '-ms-filter'     : 'blur(0px)'
 });
 ```
+## Here is a little trick to only have an event fire once
+```javascript
+$('#element').one{function(e){
+    //code here
+}}
+```
+
+## Check Jquery Version
+```js
+$.fn.jquery
+```

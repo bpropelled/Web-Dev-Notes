@@ -98,3 +98,36 @@ only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
 ```
+## Centering trick (simple)
+```css
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+```
+
+## Use TRANSFORM for animatinmg items instead of position methods like top, left and margin.  The transform will provide much better performance and much smoother animations
+[Explanation]('https://www.paulirish.com/2012/why-moving-elements-with-translate-is-better-than-posabs-topleft/')
+```css
+.test {
+transform: translate(x, y)
+}
+
+```
+
+## Make a circe easily
+```css
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+```
+
+## Calculate CSS Unit Values
+A calc() expression lets you give complex length values to CSS properties. For example, want a div to be 80% wide, minus 40px? Just do this:
+```css
+div { width: calc(80% - 40px); }
+```
