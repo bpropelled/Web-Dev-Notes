@@ -15,7 +15,7 @@ $('#example').on('click', function(e){
 
 ## Parse Float to n decimals
 ```javascript
-let x = '3.456789'
+let x = '3.456789';
 
 parseFloat(x).toFixed(2);
 
