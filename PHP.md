@@ -253,3 +253,13 @@ The __NAMESPACE__ constant returns the name of the current namespace.
 
 [link to reference and exmaples]('https://www.tutorialrepublic.com/php-tutorial/php-magic-constants.php')
 
+## Fire Up a PHP Server from the command line
+```cmd
+php -S localhost:8000
+```
+
+## Echo out the directory path of the current working directory
+```php
+echo getcwd();
+//var/www/example.com/httpdocs
+```

@@ -91,3 +91,10 @@ Open the Command Prompt and type in the following:
 FOR /L %i IN (1,1,254) DO ping **-n 1** 192.168.10.%i | FIND /i "Reply"&gt;&gt;c:\ipaddresses.txt
 
 Change 192.168.10 to match you own network.
+
+## XAMPP Port 80 Being used by System (PID 4)
+Sometimes, a PHP server can not be booted up due to another process using PORT 80.  When using netstat, you may see that the system is using this port.  Here is how to end all http on port 80 so you can boot up the xampp server
+
+```cmd
+NET stop HTTP
+```
