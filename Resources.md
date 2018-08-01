@@ -3,9 +3,10 @@ This is a collection of cool things, sites and other things that i need to read 
 
 ### TOC
 [TOOLS](#tools)
+
 [MOVIES](#movies-to-watch)
 
-##Tools
+## Tools
 Description | Link
 ---------------- | --------
 Markdown Cheat Sheet     | [markdown-cheatsheet-online](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
@@ -17,5 +18,8 @@ Markdown Converter (convert webpages to MD) | [Fuck Yeah Markdown](http://fuckye
 Description | Link
 ---------------- | --------
 Bronson Movie | [Bronson (2008) - IMDb](https://www.imdb.com/title/tt1172570/)
+
+
+
 
 
