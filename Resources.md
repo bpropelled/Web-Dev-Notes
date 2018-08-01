@@ -3,4 +3,4 @@ This is a collection of cool things, sites and other things that i need to read 
 
 Description | Link
 ---------------- | --------
-MArkdown Cheat Sheet     | [markdown-cheatsheet-online](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+Markdown Cheat Sheet     | [markdown-cheatsheet-online](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
