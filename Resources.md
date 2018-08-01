@@ -2,9 +2,29 @@
 This is a collection of cool things, sites and other things that i need to read up on or reference from time to time
 
 ### TOC
+[CHEATS](#cheatsheets)
+
+[Javascript](#javascript)
+
+[PHP and Laravel](#php-and-laravel)
+
 [TOOLS](#tools)
 
 [MOVIES](#movies-to-watch)
+
+## Cheatsheets
+Description | Link
+---------------- | --------
+Nice Collection of Different Sheets | [DEV Hints](https://devhints.io/css)
+CSS cheat Sheet | [CSS Cheat ](https://adam-marsden.co.uk/css-cheat-sheet)
+Learn X in Y | [ Learn X in Y Minutes](https://learnxinyminutes.com/)
+
+## Javascript
+Description | Link
+
+## PHP and Laravel
+Description | Link
+
 
 ## Tools
 Description | Link
