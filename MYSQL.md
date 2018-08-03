@@ -1,5 +1,9 @@
 # MYSQL Notes
 
+## Tutorials
+[SQL Teaching - The easiest tutorial to learn SQL](https://www.sqlteaching.com/)
+[Learn SQL - Codecademy](https://www.codecademy.com/learn/learn-sql)
+
 ## MYSQL Command Line
 
 ### Tutorial Series on the MySql Command Line
