@@ -48,11 +48,18 @@ NGINX Dummy Guide | [Dummies Guide to Setting Up Nginx - Michael Lustfield](http
 Description | Link 
 ---------------- | --------
 Object Design Patterns Explained | [JavaScript Weekly: Fundamental Object Design Patterns](https://medium.com/launch-school/javascript-weekly-fundamental-object-design-patterns-31453f68427f)
+Interactive Array Methods | [JavaScript Array Methods](https://javascript-array-methods.netlify.com/)
+JS String Methods with examples | [The Top 15 Most Popular JavaScript String Functions - Vegibit](https://vegibit.com/javascript-string-functions/)
+Most Useful Array Methods | [Most Useful JavaScript Array Functions - Vegibit](https://vegibit.com/most-useful-javascript-array-functions/)
+
 
 ## PHP and Laravel
 Description | Link
 ---------------- | --------
 Find text between special tags | [regex - get everything between <tag> and </tag> with php - Stack Overflow](https://stackoverflow.com/questions/9253027/get-everything-between-tag-and-tag-with-php/9253072)
+Deploy LAravel on Shared Hosting | [Deploying Laravel 5 on GoDaddy Shared Hosting – Kunal Nagar – Medium](https://medium.com/@kunalnagar/deploying-laravel-5-on-godaddy-shared-hosting-888ec96f64cd)
+Another Deploy Laravel on Dreamhost | [Deploying a Laravel application to DreamHost shared hosting, 2018 edition – Buildings and Food](http://buildingsandfood.com/deploying-a-laravel-application-to-dreamhost-shared-hosting-2018-edition/)
+PHP the Right Way | [PHP The Right Way](https://www.phptherightway.com/)
 
 ## Cool Libraries
 Description | Link
@@ -82,7 +89,7 @@ Event Tracking in GA | [The Beginner's Guide To Event Tracking In Google Analyti
 ## Cool Sites
 Description | Link
 ---------------- | --------
-Side Hustles - How people made money on their side hustle | [Podcasts | Side Hustle School](https://sidehustleschool.com/podcasts/)
+Side Hustles - How people made money on their side hustle | [Podcasts - Side Hustle School](https://sidehustleschool.com/podcasts/)
 Interactive Explanations to May Topics | [Explorable Explanations](https://explorabl.es/)
 Awesome Designed Site by a Designer - would love to reverse engineer | [Darin Senneff is The Dazzling D-Man: Design Superhero!](http://www.thedazzlingdman.com/)
 Petier Levels - digital nomad and some tuts | [levels.io](https://levels.io/)
@@ -99,7 +106,7 @@ Bulma Templates | [Github Repo](https://github.com/dansup/bulma-templates/tree/m
 Description | Link
 ---------------- | --------
 Alligator.io - Good tutorials on JS and VUE | [Link to Source](https://alligator.io)
-Flywheel Tutorials - CSS. Wordpress, JS | [Flywheel | The Layout](https://getflywheel.com/layout/)
+Flywheel Tutorials - CSS. Wordpress, JS | [Flywheel- The Layout](https://getflywheel.com/layout/)
 Vegibit Tutorials - Awesome stuff here for VUE, PHP and Laravel | [Vegibit](https://vegibit.com)
 100 Days of Code Notes | [100 Days of Code - Round 1 by james-priest](https://james-priest.github.io/100-days-of-code-log/)
 The New Code - Great Web Dev Tuts | [the new code](https://thenewcode.com/)
@@ -108,6 +115,9 @@ Sarah Drasner - Vue and SW | [Sarah Drasner](https://sarahdrasnerdesign.com/)
 CodeBurst | [Codeburst](https://codeburst.io)
 Laravel Tuts | [MattStauffer.com](https://mattstauffer.com/blog/)
 Laravel and Ubiquiti Tutorials | [Tutorials and resources for people who love technology. - Server Side Up](https://serversideup.net/)
+All sorts of JS tuts | [JavaScript Is Sexy  Master JavaScript and Frontend Development](http://javascriptissexy.com/)
+PHP Blog with some neat topics | [Online Coding Tutorials and Freelancing Tips](https://www.johnmorrisonline.com/blog/)
+Todd Motto | [Todd Motto: Angular, TypeScript and JavaScript articles](https://toddmotto.com/)
 
 
 
@@ -126,5 +136,14 @@ Powerful CSS Grid Snippets | [8 Snippets That Show the Power of CSS Grid](https:
 LAravel Web Server on RaspPi | [Valentin](http://valentinvannay.com/2016/01/21/installation-of-a-web-server-and-laravel-5-on-a-raspberry-pi-2/)
 Control Hue Lights with Laravel | [Controlling LIFX lights with your (Laravel or other) web applications | MattStauffer.com](https://mattstauffer.com/blog/controlling-lifx-lights-with-your-laravel-or-other-web-applications/)
 Ubiquiti Unifi and Synology Network build tutorial | [Complete Ubiquiti UniFi + Synology Network Build - Server Side Up](https://serversideup.net/courses/complete-ubiquiti-unifi-synology-network-build/)
+Private Members in JS without ES6 Classes | [Private Members in JavaScript](https://crockford.com/javascript/private.html)
+
+
+## Certifications
+Description | Link
+---------------- | --------
+Choose the Cloud Cert best for you | [Choosing the right AWS Certification for you and your team](https://cloudacademy.com/blog/choosing-the-right-aws-certification/)
+AWS Learning Paths for Certs - Really Good Info | [Solutions Architect – Associate Certification Preparation for AWS](https://cloudacademy.com/learning-paths/solutions-architect-associate-certification-preparation-for-aws-14/)
+Cloud Training for Certs - Another Good site | [Membership - Start Your Free, All-Access Trial - A Cloud Guru](https://acloud.guru/membership)
 
 
