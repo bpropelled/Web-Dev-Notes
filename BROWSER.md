@@ -21,3 +21,5 @@ You’ll notice the two flags appended to the shortcut path.
 Together, both of these flags will allow a developer to test cross-domain ajax requests from a local file.
 
 P.S. I labeled the extension “UNSECURED CHROME” so that I don’t risk always running Chrome with these flags.
+
+//test
