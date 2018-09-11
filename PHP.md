@@ -263,3 +263,44 @@ php -S localhost:8000
 echo getcwd();
 //var/www/example.com/httpdocs
 ```
+
+## Quickly show all PHP errors
+The quickest way to display all php errors and warnings is to add these lines to your PHP code file:
+```php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+```
+
+**What do these lines of code do exactly?**
+The ini_set function will try to override the configuration found in your PHP ini file.
+
+The display_errors and display_startup_errors are just two of the directives that are available. The display_errors directive will determine if the errors will be displayed or hidden to the user. Usually, the dispay_errors directive should be turned off after development.
+
+The display_startup_errors, however, is a separate directive because the display_errors doesn’t handle the errors that will be encountered during PHP’s startup sequence. The list of the directives that can be overridden by the ini_set function is found in the official documentation.
+
+Unfortunately, these two directives won’t be able to display parse errors such as missing semicolons or missing curly braces. In this case, the PHP ini configuration must be modified.
+
+## Simple PHP try-catch example
+Here is an example of a basic PHP try-catch statement.
+```php
+try {
+    // run your code here
+}
+catch (exception $e) {
+    //code to handle the exception
+}
+finally {
+    //optional code that always runs
+}
+```
+### PHP error handling keywords
+The following keywords are used for PHP exception handling.
+
+**Try:** The try block contains the code that may potentially throw an exception. All of the code within the try block is executed until an exception is potentially thrown.
+
+**Throw:** The throw keyword is used to signal the occurrence of a PHP exception. The PHP runtime will then try to find a catch statement to handle the exception.
+
+**Catch:** This block of code will be called only if an exception occurs within the try code block. The code within your catch statement must handle the exception that was thrown.
+
+**Finally:** In PHP 5.5, the finally statement is introduced. The finally block may also be specified after or instead of catch blocks. Code within the finally block will always be executed after the try and catch blocks, regardless of whether an exception has been thrown, and before normal execution resumes. This is useful for scenarios like closing a database connection regardless if an exception occurred or not.
