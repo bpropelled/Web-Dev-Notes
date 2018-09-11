@@ -229,3 +229,15 @@ DOSKEY research=cd %USERPROFILE%\Dropbox\Research\
 ```
 Note that the $* syntax works after a directory string as well as an executable which takes in arguments. So in the above example, the user-defined command dropbox research points to the same directory as research.
 As Rivenfall pointed out, it is a good idea to include a command that allows for convenient editing of the env.cmd file. See alias above. If you are in a cmd session, enter cmd to restart cmd and reload the env.cmd file.
+
+### What is a batch file?
+These are simple text files containing some lines with commands that get executed in sequence, one after the other. These files have the special extension BAT or CMD. Files of this type are recognized and executed through an interface (sometimes called a shell) provided by a system file called the command interpreter. In Windows XP/ Vista the command interpreter is the file cmd.exe. The large assortment of versatile commands available in Windows XP/Vista/7 makes batch files a powerful tool.
+Constructing a batch file consists of nothing more than opening any text editor like the accessory Notepad, entering some lines containing commands, and saving the file with an extension BAT or CMD. (The CMD extension is limited to newer Windows systems and is not recognized in Windows 9x/Me systems. In Windows XP, Vista, and 7 there is little practical difference between the two extensions.) Don't use Wordpad or Word unless you are very careful to save all files in pure text format. The commands themselves are often quite simple and there is no need to learn a programming language. Those who wish can explore the intricacies that are available with branching and looping but here I will confine the discussion to some straightforward application to everyday tasks. The focus will be on saving time and effort for some routine stuff like system housekeeping and simple file management.
+
+Running a batch file is a simple matter of clicking on it. Batch files can also be run in a command prompt or the Start-Run line. In that case, the full path name must be used unless the file's path is in the path environment.
+
+### Constructing a batch file
+In the following discussion it is assumed that the Introductory page and the page on Commands have been read.
+The first line in a batch file often consists of this command
+**@echo off**
+By default, a batch file will display its commands as it runs. The purpose of this first command is to turn off this display. The command "echo off" turns off the display for the whole script, except for the "echo off" command itself. The "at" sign "@" in front makes the command apply to itself as well. This nuance isn't really all that important in the context here but I mention it because it is often seen in scripts. The scripts we will discuss are very brief and omitting this line won't make any great difference. However, as a matter of good practice, we will enter it in our scripts.
