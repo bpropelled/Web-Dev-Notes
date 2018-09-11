@@ -304,3 +304,4 @@ The following keywords are used for PHP exception handling.
 **Catch:** This block of code will be called only if an exception occurs within the try code block. The code within your catch statement must handle the exception that was thrown.
 
 **Finally:** In PHP 5.5, the finally statement is introduced. The finally block may also be specified after or instead of catch blocks. Code within the finally block will always be executed after the try and catch blocks, regardless of whether an exception has been thrown, and before normal execution resumes. This is useful for scenarios like closing a database connection regardless if an exception occurred or not.
+
