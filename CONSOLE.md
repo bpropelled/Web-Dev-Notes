@@ -190,4 +190,42 @@ F7 = Displays a history of command-line entries for the current session (50-line
 F8 = Sequentially displays previous command-line entries  
 F9 = Enables user to recall previous command lines by number (0 = first line)
 
-  
+  ## Create an Alias or setup CMD or BAT file to run on CMD startup everytime
+you may make the alias(es) persistent with the following steps,
+
+1. Create a .bat or .cmd file with your DOSKEY commands.
+2. Run regedit and go to HKEY_CURRENT_USER\Software\Microsoft\Command Processor
+3. Add String Value entry with the name AutoRun and the full path of your .bat/.cmd file.
+
+For example, %USERPROFILE%\alias.cmd, replacing the initial segment of the path with %USERPROFILE% is useful for syncing among multiple machines.
+
+This way, every time cmd is run, the aliases are loaded.
+
+For completeness, here is a template to illustrate the kind of aliases one may find useful.
+```cmd
+@echo off
+
+:: Temporary system path at cmd startup
+
+set PATH=%PATH%;"C:\Program Files\Sublime Text 2\"
+
+:: Add to path by command
+
+DOSKEY add_python26=set PATH=%PATH%;"C:\Python26\"
+DOSKEY add_python33=set PATH=%PATH%;"C:\Python33\"
+
+:: Commands
+
+DOSKEY ls=dir /B
+DOSKEY sublime=sublime_text $*  
+    ::sublime_text.exe is name of the executable. By adding a temporary entry to system path, we don't have to write the whole directory anymore.
+DOSKEY gsp="C:\Program Files (x86)\Sketchpad5\GSP505en.exe"
+DOSKEY alias=notepad %USERPROFILE%\Dropbox\alias.cmd
+
+:: Common directories
+
+DOSKEY dropbox=cd "%USERPROFILE%\Dropbox\$*"
+DOSKEY research=cd %USERPROFILE%\Dropbox\Research\
+```
+Note that the $* syntax works after a directory string as well as an executable which takes in arguments. So in the above example, the user-defined command dropbox research points to the same directory as research.
+As Rivenfall pointed out, it is a good idea to include a command that allows for convenient editing of the env.cmd file. See alias above. If you are in a cmd session, enter cmd to restart cmd and reload the env.cmd file.

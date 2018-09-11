@@ -64,7 +64,7 @@ https://svgontheweb.com/
 https://compressor.io/
 
 
-## Freeelance Tools
+## Freelance Tools
 ### Tool to get an estimated amount for a website
 https://fulfilli.com/?ref=webdesignernews.com
 
@@ -78,3 +78,21 @@ http://markitdown.medusis.com/
 
 ## Get the keycode being presed easily
 [link](http://keycode.info/)
+
+
+## Windows Tools
+### Chocolatey - Package Manager for Windows
+Easily install software on your windows machine from the command line
+[Chocolatey - The package manager for Windows](https://chocolatey.org/)
+
+#### Choco Packages
+[Chocolatey Gallery | Packages](https://chocolatey.org/packages)
+
+** Example **
+```cmd
+choco install googlechrome
+```
+```cmd
+C:\> choco install adobereader
+```
+

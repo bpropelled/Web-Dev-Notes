@@ -1,4 +1,4 @@
-# Git Notes
+#
 
 ## How to update a local repo witht the latest files
 ```cmd
