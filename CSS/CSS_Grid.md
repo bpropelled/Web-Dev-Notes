@@ -275,3 +275,10 @@ To name a grid line, provide the name in square brackets:
 ```
 
 
+## My Notes from CSS Grid by Wes Bos
+To start with grid the first step is to use
+```css
+.test {
+  display: grid;
+}
+```
